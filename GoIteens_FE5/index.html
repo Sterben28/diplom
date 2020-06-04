@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.3/dist/basicLightbox.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend project</title>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="logo"><img src="./assets/header_logo.png" alt="Steam" class="logoIcon" /></div>
+        <nav class="navigation">
+          <ul class="navigationList">
+            <li class="navLink"><a data-page="games" class="activeNavLink" href="#">menu</a></li>
+          </ul>
+        </nav>
+        <div class="rightMenu">
+          <div class="borderLine"></div>
+          <div class="headerCart cartForModal">
+            <img src="assets\cart.png" alt="cartImage" class="headerCartIMG" />
+          </div>
+          <div class="borderLine"></div>
+          <span class="userName"></span>
+    <div class="userProfile"> </div>
+          <div class="auth">
+          </div>
+        </div>
+      </div>
+    </header>
+ 
+
+    <main>
+      <div class="main">
+        <p class="pageName"></p>
+        <ul class="listItems"></ul>
+      </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.3/dist/basicLightbox.min.js"></script>
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>
